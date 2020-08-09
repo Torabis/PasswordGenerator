@@ -14,7 +14,28 @@
       </header>
       <div class="card">
         <div class="card-header">
-          <h2>Generate a Password</h2>
+          <h3>Generate a Password</h3>
+          <div class="generator">
+            <div>
+              <input type="number" id="length" value="8" min="1" max="20" /><br />
+            </div>
+            <div>
+              <input type="checkbox" id="upper" name="upper" checked />
+              <label for="upper">Include Uppercase</label>
+            </div>
+            <div>
+              <input type="checkbox" id="lower" name="lower" checked />
+              <label for="lower">Include Lowercase</label>
+            </div>
+            <div>
+              <input type="checkbox" id="numeric" name="numeric" checked />
+              <label for="numeric">Include number</label>
+            </div>
+            <div>
+              <input type="checkbox" id="special" name="special" checked />
+              <label for="special">Include special Character</label>
+            </div>
+          </div>
         </div>
         <div class="card-body">
           <textarea
