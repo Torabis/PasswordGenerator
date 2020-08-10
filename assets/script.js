@@ -44,5 +44,3 @@ for(let i = 0; i< length; i++){
 results.textContent = password.join("");
 })
 
-// Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);
